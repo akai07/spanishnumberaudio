@@ -4,17 +4,14 @@ import 'HomePage.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({ Key? key }) : super(key: key);
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp( 
-      title:'Spanish Number App',
-      debugShowCheckedModeBanner: false,
-      theme:ThemeData(
-        primarySwatch: Colors.purple
-      ),
-      home:HomePage()
-    );
+    return MaterialApp(
+        title: 'Spanish Number App',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(primarySwatch: Colors.blue),
+        home: HomePage());
   }
 }
